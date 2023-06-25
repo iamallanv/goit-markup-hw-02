@@ -1,78 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 2</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/goit.png" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <table width="100%">
-                <tr>
-                    <td align="center">
-                        <strong>
-                            <a style="text-decoration: none" href="">
-                                <font width="44px" height="21px" face="Raleway" color="#4D5AE5" top="1.5px" left="44px"
-                                    size="5">
-                                    WEB<font width="71px" height="21px" face="Raleway" color="#2E2F42" top="1.5px"
-                                        left="44px" size="5">STUDIO</font>
-                                </font>
-                            </a>
-                        </strong>
-                    </td>
-                    <td>
-                        <font width="48px" height="24px" face="Roboto" color="#2E2F42" size="4">
-                            <a href="./index.html">
-                            Studio
-                            </a>                            
-                        </font>
-                    </td>
-                    <td>
-                        <font width="48px" height="24px" face="Roboto" color="#2E2F42" size="4">
-                            Portfolio
-                        </font>
-                    </td>
-                    <td>
-                        <font width="48px" height="24px" face="Roboto" color="#2E2F42" size="4">
-                            Contacts
-                        </font>
-                    </td>
+      <nav>
+        <!-- logo part -->
+        <nav class="header-part">
+          <a href="" class="index-logo">
+            <p class="index-logo1">WEB</p>
+            <p class="index-logo2">STUDIO</p>
+          </a>
         </nav>
-        <td align="center">
-            <font width="48px" height="24px" face="Roboto" color="#2E2F42" size="4">
-                <a style="text-decoration: none" href="mailto:info@devstudio.com">
-                    info@devstudio.com
-                </a>
-            </font>
-        </td>
-
-        <td align="center">
-            <font width="48px" height="24px" face="Roboto" color="#2E2F42" size="4">
-                <a style="text-decoration: none " href="tel:+11 (000) 111-11-11">
-                    +11 (000) 111-11-11
-                </a>
-            </font>
-        </td>
-        </tr>
-        </table>
-        <br>
+        <!-- list options: studio,portfolio,contacts -->
+        <ul class="index-list">
+          <li class="index-list1">
+            <a href="./index.html" class="index-hyperlink">Studio</a>
+          </li>
+          <li class="index-list2">
+            <a href="#" class="index-hyperlink">Portfolio</a>
+          </li>
+          <li class="index-list3">
+            <a href="#" class="index-hyperlink">Contacts</a>
+          </li>
+        </ul>
+        <!-- email address -->
+        <a href="mailto:info@devstudio.com" class="emailadd"
+          >info@devstudio.com</a
+        >
+        <!-- telephone number -->
+        <a href="tel:+11(000)111-11-11" class="contactno"
+          >+11 (000) 111-11-11</a
+        >
+      </nav>
     </header>
-    <!--Navigation Bar-->
-    <center>
-        <div class="topnav">
-            <a class="active" href="#all">All</a>
-            <a href="#website">Web Site</a>
-            <a href="#app">App</a>
-            <a href="#design">Design</a>
-            <a href="#marketing">Marketing</a>
+
+    <main>
+      <!-- section 1 -->
+      <section>
+        <!--top row buttons -->
+        <div class="buttontop-row">
+          <button class="buttontop">All</button>
+          <button class="buttontop">Website</button>
+          <button class="buttontop">App</button>
+          <button class="buttontop">Design</button>
+          <button class="buttontop">Marketing</button>
         </div>
-    </center>
-    <br><br><br><br><br><br><br>
-    <center>
-        <h1 style="color: red;">Under Maintenance :)</h1>
-    </center>
-</body>
+      </section>
+
+      <!-- section 2 -->
+      <section>
+        <!-- 1st row images -->
+        <div class="image-gallery">
+          <div class="image-row1">
+            <div class="image-container">
+              <img src="./images/img1-bankapp.jpg" alt="Taxi Service" />
+              <p class="caption1">Banking App Interface Concept</p>
+              <p class="caption2">App</p>
+            </div>
+            <div class="image-container">
+              <img src="./images/img2-cashless.jpg" alt="Cashless Payment" />
+              <p class="caption1">Cashless Payment</p>
+              <p class="caption2">Marketing</p>
+            </div>
+            <div class="image-container">
+              <img src="./images/img3-meditation.jpg" alt="Meditation App" />
+              <p class="caption1">Meditation App</p>
+              <p class="caption2">App</p>
+            </div>
+          </div>
+          <!-- 2nd row images -->
+          <div class="image-row2">
+            <div class="image-container">
+              <img src="./images/img1-taxiservice.jpg" alt="Taxi Service" />
+              <p class="caption1">Taxi Service</p>
+              <p class="caption2">Marketing</p>
+            </div>
+            <div class="image-container">
+              <img src="./images/img2-screen.jpg" alt="Screen Illustrations" />
+              <p class="caption1">Screen Illustrations</p>
+              <p class="caption2">Design</p>
+            </div>
+            <div class="image-container">
+              <img src="./images/img3-onlinecourses.jpg" alt="Online Courses" />
+              <p class="caption1">Online Courses</p>
+              <p class="caption2">Marketing</p>
+            </div>
+          </div>
+          <!-- 3rd row images -->
+          <div class="image-row3">
+            <div class="image-container">
+              <img
+                src="./images/img1-instagram.jpg"
+                alt="Instagram Stories Concept"
+              />
+              <p class="caption1">Instagram Stories Concept</p>
+              <p class="caption2">Design</p>
+            </div>
+            <div class="image-container">
+              <img src="./images/img2-organic.jpg" alt="Organic Food" />
+              <p class="caption1">Organiz Food</p>
+              <p class="caption2">Website</p>
+            </div>
+            <div class="image-container">
+              <img src="./images/img3-freshcoffee.jpg" alt="Fresh Coffee" />
+              <p class="caption1">Fresh Coffee</p>
+              <p class="caption2">Web Site</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="footer-container">
+        <a href="#" class="logo-footer">
+          <p class="logo-footer1">WEB</p>
+          <p class="logo-footer2">STUDIO</p>
+        </a>
+        <p class="footer-content">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
