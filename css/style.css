@@ -152,4 +152,5 @@ body {
 
 .project {
   text-decoration: none;
+  color: var(--primary-text-color);
 }
