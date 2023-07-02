@@ -72,11 +72,6 @@ body {
   color: var(--accent-color);
 }
 
-/***** current styling for navigation menu & buttons *****/
-/*.current {
-  color: var(--accent-color);
-}*/
-
 /***** styling for Email and Contact No. *****/
 .contacts-menu .item {
   color: var(--primary-text-color);
@@ -117,6 +112,7 @@ body {
   letter-spacing: 0.06em;
 }
 
+/*************** button pseudoclass ***************/
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--button-primary-hover);
@@ -138,6 +134,7 @@ body {
   color: var(--button-filter);
 }
 
+/***** list styling portfolio.html *****/
 .section-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -146,11 +143,15 @@ body {
   line-height: 1.17;
 }
 
-/*************** button pseudoclass ***************/
+.benefits.title {
+  color: var(--primary-black-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
 
-.button.primary:hover,
-.button.primary:focus {
-  background-color: var(--button-primary-hover);
+.benefits.description {
+  line-height: 1.71;
 }
 
 .bg-hero {
@@ -166,17 +167,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.benefits.title {
-  color: var(--primary-black-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.benefits.description {
-  line-height: 1.71;
-}
-
+/***** Our Team styling portfolio.html *****/
 .bg-team {
   background-color: var(--background-grey);
 }
