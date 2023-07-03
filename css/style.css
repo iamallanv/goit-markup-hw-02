@@ -55,7 +55,7 @@ body {
 .nav-menu .page {
   color: var(--primary-black-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none; /* to remove underline in hyperlink */
@@ -76,7 +76,7 @@ body {
 .contacts-menu .item {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none; /* to remove underline in hyperlink */
